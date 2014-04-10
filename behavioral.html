@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>IS 217 - structural js design patterns</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+    
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/prototype_iterator.js">  </script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">.js design patterns</h3>
+              <ul class="nav masthead-nav">
+                <li> <a href="index.html"> <span class="glyphicon glyphicon-home"> </span> home</a></li>
+                <li><a href="creational.html">creational</a></li>
+                <li><a href="structural.html">structural</a></li>
+                <li class="active"><a href="behavioral.html">behavioral</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover" style="background-color:black;filter:alpha(opacity=70); opacity:0.58;">
+            <h1 class="cover-heading">Behavioral Design Patterns.</h1>
+            <p class="lead">
+            		Behavioral patterns focus on improving or streamlining the communication between disparate
+            		 objects in a system.
+            	</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-success">Learn more</a>
+            </p>
+          </div>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Prototype Design Pattern</h4>
+          <p>Is a design pattern where objects are created based on that objects template. This makes it easier for objects to inherit the main objects prototypes properties and methods.
+</p>
+
+          <h4>Prototype/Iterator Implementation</h4>
+          <p>We created a dog object that has the essential dog properties. This was our prototype, so we created 4 dogs from this prototype. Then an array called DogPack is where all the dog objects are stored. Using an Iterator, we created a method that allowed us to loop through the collection of dogs and return the dog with the specified name.</p>
+          <p> LOOK AT CONSOLE FOR RESULTS</p>
+          <a href='js/prototype_iterator.js'>Link-To JavaScript</a>
+          
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Iterator Design Pattern</h4>
+          <p>Is a design pattern that allows the user to loop through a collection of objects. There are already iterators in Javascript like the For, Do while, and Do loop.
+</p>
+
+          
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p><a href="https://github.com/dg253" target="blank">David Garcia</a>, Alex Bartolo.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/docs.min.js"></script>
+  </body>
+</html>
